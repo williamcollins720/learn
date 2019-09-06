@@ -5,8 +5,17 @@
 body {
   margin: 0;
   padding: 0;
+  background-image: url("./background.jpg");
 }
-
+h1 {
+  color: rgb(99, 56, 0);
+  font-size: 1in
+}
+h2 {
+  color: rgb(56, 4, 0);
+  font-size: 0.5in;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 header {
   grid-area: header;
   color: white;
@@ -60,7 +69,7 @@ footer {
 }
 
 img {
-  width: 25%;
+  width: 40%;
 }
 
 .container {
